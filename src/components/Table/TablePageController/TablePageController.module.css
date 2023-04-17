@@ -1,0 +1,45 @@
+.tableFooter {
+  padding: 8px 0px;
+  width: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.button {
+  font-size: 1em;
+  margin: 0.4em;
+  font-weight: 700;
+  border-radius: 0.5em;
+  cursor: pointer;
+  width: 2em;
+  height: 1.7em;
+}
+.pageNumber {
+  text-align: center;
+  margin: 0.4em 0;
+  height: 1.7em;
+  font-weight: 700;
+  border: 1px solid lightgray;
+  border-radius: 0.5em;
+  min-width: 2em;
+
+}
+
+.disabledButton {
+  color: #ffffff;
+  background: lightgray;
+  border: 1px solid hsl(0, 0%, 83%);
+}
+.disabledButton:hover {
+  cursor: default;
+}
+
+.hide{
+  position: absolute;
+  opacity: 0;
+  z-index: -100;
+  pointer-events: none;
+}

@@ -1,0 +1,13 @@
+.input{
+    margin: 0.4em;
+    padding: 0 0.5em;
+  }
+
+.inputField{
+    min-width: 9em;
+    text-indent: 0.3em;
+    padding: 0.2em;
+    border: 1px solid lightgray;
+    border-radius: 0.5em;
+}
+
